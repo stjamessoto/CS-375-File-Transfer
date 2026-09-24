@@ -1,0 +1,15 @@
+# Compiled binaries (run `make`)
+version1/server
+version1/client
+version2_threadpool/server
+version2_threadpool/client
+
+# Generated at runtime
+downloads/
+test_output/
+server_files/uploads/
+*.part.*
+
+# Large test files (run `make testfiles`)
+server_files/*.bin
+server_files/empty.txt

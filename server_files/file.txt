@@ -1,0 +1,13 @@
+CS-375 Lab 4: TCP File Transfer
+================================
+
+This is the sample text file served by both servers.
+
+Request it with:
+    ./version1/client file.txt            (Version 1, sequential server)
+    ./version2_threadpool/client file.txt (Version 2, thread-pool server)
+
+The client saves it as downloads/received_file.txt and checks that the
+SHA-256 checksum computed locally matches the one sent by the server.
+
+The quick brown fox jumps over the lazy dog. 0123456789
